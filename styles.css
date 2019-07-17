@@ -1,0 +1,160 @@
+/* Setting fade transition and default settings */
+*{
+  /* box-sizing: border-box; */
+  padding: 0%;
+  margin: 0%; 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    /* height: 100%; */
+    margin: 0%;
+    background-color: #1fe5bd;
+
+    /* font-family: 'Roboto';  */
+    font-style: italic; 
+    transition: background-color 1s ease;
+    
+  }
+
+  .parallax {
+    top: 0; 
+    background-size: cover;
+    /* max-width: 100%;
+    max-height: 100vh; */
+    height: 100%;
+    width: 100%; 
+    background-size: cover;
+    /* The image used */
+    background-image: url("stairs.jpg");
+    
+    
+  
+
+  /* margin: auto; */
+  display: block;
+
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+   
+  }
+
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+  /* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:white; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+.topnav{
+  
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.452);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  z-index: 1; 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(76, 152, 175);
+  color: white;
+}
+
+
+  
+  /* panel styles */
+  .content {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin-top: 70px; 
+  }
+  
+ 
+  h2 {
+    color: #fff; 
+    font-size: 90px;
+    text-align: center;
+    width: 100%;
+    /* display: table-cell; */
+    /* vertical-align: top;  */
+    /* margin-top: -65px; */
+    clear: both;
+    font-style: italic; 
+}
+
+h3 {
+  color: rgb(11, 184, 214); 
+  font-size: 60px;
+ 
+  font-style: italic; 
+  position: absolute;
+    top: 87%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+h4 {
+  color: rgb(11, 184, 214); 
+  font-size: 40px;
+ 
+  font-style: bold; 
+  position: absolute;
+    top: 92%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+h1 {
+  color:black; 
+  font-size: 90px;
+  text-align: center;
+  font-style: italic; 
+  width: 100%;
+  /* display: table-cell; */
+  /* vertical-align: top;  */
+  /* margin-top: -65px; */
+  clear: both;
+}
+
+#banner {
+  
+  padding: 10px;
+}
+
+
+ 
+#aboutMe{
+  background: linear-gradient(to bottom, black 0%,rgba(60, 71, 89, 0.411) 70%, #0099cc 100%);         
+  background-size: 110%; 
+  background-color: rgb(76, 152, 175);  
+  height: .5%;
+  padding: 0%; 
+  position:relative;
+  margin-top: 0;
+}
