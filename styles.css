@@ -66,11 +66,12 @@ body {
   
   position: fixed;
   top: 0;
-  background: rgba(0, 0, 0, 0.452);
+  background: rgba(71, 78, 73, 0.76);
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
   z-index: 1; 
+  
 }
 
 /* Change the color of links on hover */
@@ -79,11 +80,7 @@ body {
   color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: rgb(221, 134, 34); 
-  color: white;
-}
+
 
 
   
