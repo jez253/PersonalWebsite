@@ -1,0 +1,85 @@
+body {
+    /* height: 100%; */
+    margin: 0%;
+    background-image: url("map.jpg");
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+     image-rendering: pixelated;
+
+    /* font-family: 'Roboto';  */
+    font-style: italic; 
+    /* transition: background-color 1s ease;  if u want color transition*/
+    
+  }
+
+    /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color:white; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+    
+  }
+  .topnav{
+    
+    position: fixed;
+    top: 0;
+    background: rgba(36, 35, 35, 0.459);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 1; 
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  h2 {
+    padding-top: 5%;   
+    color: red; 
+    font-size: 90px;
+    text-align: center;
+    width: 100%;
+    /* display: table-cell; */
+    /* vertical-align: top;  */
+    /* margin-top: -65px; */
+    clear: both;
+    font-style: italic; 
+}
+p{
+  font-weight: bold; 
+  text-align: center;
+  line-height: 1.74;
+  word-wrap: break-word;
+  padding: 5%; 
+  color: black;
+  font-size: 30px; 
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row{
+  margin-right: 15px;
+  margin-left: 200px;
+}
+.row:after {
+   margin-right: -15px;
+  margin-left: -15px;
+  content: "";
+  display: table;
+  clear: both;
+}

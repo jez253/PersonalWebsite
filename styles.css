@@ -1,6 +1,6 @@
 /* Setting fade transition and default settings */
 *{
-  /* box-sizing: border-box; */
+  
   padding: 0%;
   margin: 0%; 
 }
@@ -12,30 +12,30 @@ html{
 body {
     /* height: 100%; */
     margin: 0%;
-    background-color: #1fe5bd;
+    background-image: url("blk.jpg");
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+     image-rendering: pixelated;
 
     /* font-family: 'Roboto';  */
     font-style: italic; 
-    transition: background-color 1s ease;
+    /* transition: background-color 1s ease;  if u want color transition*/
     
   }
 
   .parallax {
-    top: 0; 
+    top: 70; 
     background-size: cover;
-    /* max-width: 100%;
-    max-height: 100vh; */
+    
     height: 100%;
     width: 100%; 
     background-size: cover;
     /* The image used */
-    background-image: url("stairs.jpg");
-    
-    
-  
+    background-image: url("geo.gif");
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+     image-rendering: pixelated;
 
-  /* margin: auto; */
-  display: block;
 
   
     /* Create the parallax scrolling effect */
@@ -45,11 +45,16 @@ body {
    
   }
 
+
+ 
+ 
+
   .img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 45%;
+    
   }
   /* Style the links inside the navigation bar */
 .topnav a {
@@ -66,7 +71,7 @@ body {
   
   position: fixed;
   top: 0;
-  background: rgba(71, 78, 73, 0.76);
+  background: rgba(36, 35, 35, 0.459);
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
@@ -81,6 +86,26 @@ body {
 }
 
 
+.row {
+  
+  margin-right: -15px;
+  margin-left: -15px;
+  width: 100%;
+}
+
+p{
+  text-align: left;
+  line-height: 1.74;
+  word-wrap: break-word;
+  padding: 5%; 
+  color: #f1f1f1;
+  font-size: 20px; 
+}
+
+img{
+   
+  padding-top: 15%;  
+}
 
 
   
@@ -92,6 +117,12 @@ body {
     margin-top: 70px; 
   }
   
+  h1 {
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: bold;
+    /* padding: 5%; */
+  }
  
   h2 {
     color: #fff; 
@@ -106,7 +137,7 @@ body {
 }
 
 h3 {
-  color: rgb(11, 184, 214); 
+  /* color: rgb(11, 184, 214);  */
   font-size: 60px;
  
   font-style: italic; 
@@ -116,27 +147,14 @@ h3 {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
 h4 {
-  color: rgb(11, 184, 214); 
-  font-size: 40px;
- 
-  font-style: bold; 
-  position: absolute;
-    top: 92%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-h1 {
-  color:black; 
-  font-size: 90px;
   text-align: center;
-  font-style: italic; 
-  width: 100%;
-  /* display: table-cell; */
-  /* vertical-align: top;  */
-  /* margin-top: -65px; */
-  clear: both;
+  color: #f1f1f1;
+  font-size: 35px;
+  font-weight: bold;
+  /* padding-left: 65%; */
+  
 }
 
 #banner {
@@ -144,14 +162,68 @@ h1 {
   padding: 10px;
 }
 
-
- 
 #aboutMe{
-  background: linear-gradient(to bottom, black 0%,rgba(60, 71, 89, 0.411) 70%, #0099cc 100%);         
+  /* background: linear-gradient(to bottom, black 0%,rgba(60, 71, 89, 0.411) 70%, #0099cc 100%);          */
   background-size: 110%; 
-  background-color: rgb(76, 152, 175);  
+  /* background-color: rgb(76, 152, 175);   */
   height: .5%;
   padding: 0%; 
   position:relative;
   margin-top: 0;
+}
+.fa {
+  background-color: #333;
+  border-radius: 40px;
+  color: #fff;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin: auto 3px;
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background-image: linear-gradient(rgba(255, 0, 140, 0.747), rgb(255, 166, 0));
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.container:hover .image {
+  opacity: 0.3;
+  
 }
