@@ -31,7 +31,7 @@ body {
     width: 100%; 
     background-size: cover;
     /* The image used */
-    background-image: url("geo.gif");
+    background-image: url("giphy2.gif");
     image-rendering: auto;
     image-rendering: crisp-edges;
      image-rendering: pixelated;
@@ -226,4 +226,8 @@ h4 {
 .container:hover .image {
   opacity: 0.3;
   
+}
+
+.frame{
+ text-align: center; 
 }
