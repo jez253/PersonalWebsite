@@ -1,21 +1,31 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
-  /* height: 100%; */
-  margin: 0%;
+
+  /* margin: 0%; */
   background-image: url("running.jpg");
   image-rendering: auto;
   image-rendering: crisp-edges;
    image-rendering: pixelated;
+   width: 100%; 
+ 
+  
 
-   /* height: 100%;  */
+   
 
    /* Center and scale the image nicely */
    /* background-position: center; */
-   /* background-repeat: no-repeat; */
+   background-repeat: no-repeat;
    background-size: cover;
+   -webkit-background-size: cover;
+   
  
 
   /* font-family: 'Roboto';  */
   font-style: italic; 
+  overflow: auto; 
+  
   /* transition: background-color 1s ease;  if u want color transition*/
   
 }
@@ -50,15 +60,30 @@ body {
 }
 
 h1{
-  color: red; 
+  color: black; 
   text-align: center; 
+  font-weight: bold; 
 }
 
 
 div.col-sm-4 {
-  position: fixed;
+  position: absolute;
   top: 20%; 
   left: 2%; 
   outline-style: solid;
-  outline-color:red;
+  outline-color:black;
 }
+
+
+.roww{
+  display: flex;
+}
+.column {
+  
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+
