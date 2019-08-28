@@ -5,20 +5,28 @@ body {
 
   /* margin: 0%; */
   background-image: url("running.jpg");
-  image-rendering: auto;
+  /* image-rendering: auto;
   image-rendering: crisp-edges;
-   image-rendering: pixelated;
-   width: 100%; 
+   image-rendering: pixelated; */
+   /* width: 100%;  */
  
   
+   top: 0; 
+   left: 0; 
+   
+   /* Preserve aspet ratio */
+   min-width: 100%;
+   min-height: 100%;
+   background-size: cover; 
+   background-repeat: no-repeat;
 
    
 
    /* Center and scale the image nicely */
    /* background-position: center; */
-   background-repeat: no-repeat;
+   /* background-repeat: no-repeat;
    background-size: cover;
-   -webkit-background-size: cover;
+   -webkit-background-size: cover; 
    
  
 
@@ -41,6 +49,7 @@ body {
   
   
 }
+
 .topnav{
   
   position: fixed;
@@ -67,15 +76,17 @@ h1{
 
 
 div.col-sm-4 {
-  position: absolute;
-  top: 20%; 
-  left: 2%; 
+  position: relative;
+  margin-top: 11%; 
+  margin-left: 4%; 
   outline-style: solid;
   outline-color:black;
+
 }
 
 
 .roww{
+ 
   display: flex;
 }
 .column {
