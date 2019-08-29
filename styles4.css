@@ -1,21 +1,40 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
-  /* height: 100%; */
-  margin: 0%;
-  background-image: url("alien.gif");
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-   image-rendering: pixelated;
 
-   /* height: 100%;  */
+  /* margin: 0%; */
+  background-image: url("paints.jpg");
+  /* image-rendering: auto;
+  image-rendering: crisp-edges;
+   image-rendering: pixelated; */
+   /* width: 100%;  */
+ 
+  
+   top: 0; 
+   left: 0; 
+   
+   /* Preserve aspet ratio */
+   min-width: 100%;
+   min-height: 100%;
+  
+   background-size: cover; 
+   background-repeat: no-repeat;
+
+   
 
    /* Center and scale the image nicely */
    /* background-position: center; */
-   /* background-repeat: no-repeat; */
+   /* background-repeat: no-repeat;
    background-size: cover;
+   -webkit-background-size: cover; 
+   
  
 
   /* font-family: 'Roboto';  */
   font-style: italic; 
+  overflow: auto; 
+  
   /* transition: background-color 1s ease;  if u want color transition*/
   
 }
@@ -31,6 +50,7 @@ body {
   
   
 }
+
 .topnav{
   
   position: fixed;
@@ -52,13 +72,32 @@ body {
 h1{
   color: red; 
   text-align: center; 
+  font-weight: bold; 
 }
 
 
 div.col-sm-4 {
-  position: fixed;
-  top: 20%; 
-  left: 2%; 
-  outline-style: solid;
-  outline-color:red;
+
+  margin-top: 11%; 
+ 
+
 }
+
+
+.roww{
+ 
+  display: flex;
+}
+.column {
+  
+  flex: 43.33%;
+  padding: 5px;
+}
+.one{
+  font-weight: bold; 
+
+}
+
+
+
+

@@ -117,6 +117,7 @@ p{
 img{
    
   padding-top: 15%;  
+  
 }
 
 
@@ -224,6 +225,7 @@ h4 {
 .container {
   position: relative;
   width: 50%;
+  
 }
 
 .image {
@@ -244,12 +246,21 @@ h4 {
 .frame{
  text-align: center; 
 }
+
 .footer {
   position: static;
   left: 0;
-  bottom: 0;
+  bottom: -5;
   width: 100%;
-  background-color:grey;
-   color: white;
+  background-color:rgba(141, 139, 139, 0.712);
+  color: white; 
   text-align: center;
 }
+
+p2{
+  top: 0; 
+  text-align: center; 
+  color: black; 
+
+}
+
