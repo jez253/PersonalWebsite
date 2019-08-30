@@ -124,7 +124,8 @@ img{
   
   /* panel styles */
   .content {
-    display: table;
+    display: block;
+    /* display: table; */
     height: 100%;
     width: 100%;
     margin-top: 70px; 
