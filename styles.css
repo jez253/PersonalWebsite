@@ -245,8 +245,9 @@ h4 {
 }
 
 .frame{
- overflow: hidden;
- display: block;
+
+  overflow: hidden;
+
  text-align: center;
  border: none; 
   
