@@ -124,8 +124,7 @@ img{
   
   /* panel styles */
   .content {
-    /* display: block; */
-    /* display: table; */
+    display: table;
     height: 100%;
     width: 100%;
     margin-top: 70px; 
@@ -245,14 +244,11 @@ h4 {
 }
 
 .frame{
-
-  overflow: hidden;
-
+overflow: hidden; 
  text-align: center;
  border: none; 
   
 }
-
 
 .footer {
   position: static;
@@ -270,4 +266,3 @@ p2{
   color: black; 
 
 }
-
