@@ -278,7 +278,9 @@ p2{
   }
  
   .parallax{
-    width: 637px; 
+    width: 637px;
+    height: 100%;  
+    align-content:  
   }
 
   .footer{
