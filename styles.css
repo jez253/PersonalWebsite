@@ -275,17 +275,15 @@ p2{
     /* width: 420px;  */
     height: 875px; 
   }
-  .content{
-    width: 600px; 
-  }
+ 
   .parallax{
     width: 637px; 
   }
- .myIframe{
-   width: 100%;
-  
-   
- }
+
+  .footer{
+    width: 637px; 
+  }
+ 
  
   
 }
