@@ -3,10 +3,12 @@
   
   padding: 0%;
   margin: 0%; 
+  /* display: table; */
 }
 
 html{
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -48,14 +50,6 @@ body {
    
   }
 
-  #myVideo {
-    /* position: absolute; */
-    right: 0;
-    bottom: 0;
-    align-content: center;  
-    /* width: 100%;  
-     height: 100%; */
-  }
 
 
  
@@ -125,7 +119,7 @@ img{
   
   /* panel styles */
   .content {
-    /* display: table; */
+    display: table;
     
     height: 100%;
     width: 100%; 
@@ -252,6 +246,9 @@ h4 {
  overflow: hidden; 
  text-align: center;
  border: none; 
+ /* height: 80%;
+ width: 80%;  */
+
   
 }
 
@@ -270,4 +267,14 @@ p2{
   text-align: center; 
   color: black; 
 
+}
+
+@media only screen and (max-width: 600px) {
+  .frame {
+    width: 600px; 
+    height: 875px; 
+  }
+  .parallax{
+    width: 600px;  
+  }
 }
