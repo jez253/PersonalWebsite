@@ -276,6 +276,7 @@ p2{
   }
  
   .parallax{
+    align-self: center; 
     width: 600px;  
   }
 }
