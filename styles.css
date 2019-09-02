@@ -274,6 +274,9 @@ p2{
     width: 600px; 
     height: 875px; 
   }
+  .content{
+    width: 600px; 
+  }
   .parallax{
     width: 600px;  
   }
