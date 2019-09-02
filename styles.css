@@ -124,7 +124,7 @@ img{
     height: 100%;
     width: 100%; 
     margin-top: 70px; 
-    /* position: relative; */
+    position: relative;
     
   }
   
@@ -221,7 +221,7 @@ h4 {
 
 
 .container {
-  /* position: relative; */
+  position: relative;
   width: 50%;
   
 }
@@ -242,7 +242,7 @@ h4 {
 }
 
 .frame{
-  /* position: relative; */
+  position: relative;
  overflow: hidden; 
  text-align: center;
  border: none; 
@@ -253,7 +253,7 @@ h4 {
 }
 
 .footer {
-  /* position: relative; */
+  position: relative;
   left: 0;
   bottom: -5;
   width: 100%;
@@ -274,9 +274,7 @@ p2{
     width: 600px; 
     height: 875px; 
   }
-  .content{
-    width: 600px; 
-  }
+ 
   .parallax{
     width: 600px;  
   }
