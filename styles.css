@@ -11,6 +11,7 @@ html{
   
 }
 
+
 body {
     /* height: 100%; */
     margin: 0%;
@@ -101,7 +102,7 @@ body {
 }
 
 p{
-  text-align: left;
+  text-align: center;
   line-height: 1.74;
   word-wrap: break-word;
   padding: 5%; 
@@ -269,7 +270,7 @@ p2{
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .frame {
     align-content: center; 
     /* width: 420px;  */
@@ -281,6 +282,9 @@ p2{
   }
 
   .footer{
+    width: 637px; 
+  }
+  .content{
     width: 637px; 
   }
  
