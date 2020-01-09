@@ -37,7 +37,7 @@ body {
     width: 100%; 
     background-size: cover;
     /* The image used */
-     background-image: url("moon2.gif");
+     background-image: url("regBG.gif");
     image-rendering: auto;
     image-rendering: crisp-edges;
      image-rendering: pixelated;
@@ -259,8 +259,9 @@ h4 {
   bottom: -5;
   width: 100%;
   background-color:rgba(141, 139, 139, 0.712);
-  color: white; 
+  color: black; 
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p2{
@@ -280,7 +281,7 @@ p2{
   .parallax{
     width: 637px;
     height: 100%;  
-    align-content:  
+    align-content: stretch;  
   }
 
   .footer{
